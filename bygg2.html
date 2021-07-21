@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+    <style>
+        @media screen and (min-width: 480px) {}
+
+        @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+        font-family: 'Barlow',
+        sans-serif;
+
+        a navbar-brand {
+            font-size: 30px;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        h1 {
+            color: white;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        p {
+            font-family: 'Barlow', sans-serif;
+
+        }
+
+
+
+        body{
+                        background-image: url("wood4.jpg");
+            text-align: center;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        .bildspel {
+            display: flex;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            position: relative;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            text-align: center;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .bildspel div {
+            float: none;
+            display: inline-block;
+            zoom: 1;
+            text-align: center;
+
+        }
+
+        .test {
+            padding: 150px;
+        }
+
+
+        .text1 {
+            padding-top: 75px;
+        }
+
+        .header {
+            color: #36A0FF;
+            font-size: 27px;
+            padding: 10px;
+        }
+
+        .bigicon {
+            font-size: 35px;
+            color: #36A0FF;
+        }
+
+        .container {
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-md-8{
+            margin-left: auto !important;
+            
+            margin-right: auto !important;
+        }
+
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    
+        <nav class="navbar navbar-expand-md  fixed-top">
+            <a href="bygg.html" style="color: black" "font-size: 70px" class="navbar-brand">Adabygg</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a style="color: black" class="nav-link" href="bygg2.html">Kontakta oss</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post" action="https://formspree.io/f/xqkgwblj">
+                            <fieldset>
+                                <legend class="text-center header" style="color: black">Kontakta oss</legend>
+
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                               
+                                    <div class="col-md-8">
+                                       
+                                        <input id="email" name="_replyto" type="text" placeholder="E-post" class="form-control">
+                                       
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="ämne" type="text" placeholder="Ämne" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Meddelande" rows="7"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <br>
+</body>
+
+</html>
